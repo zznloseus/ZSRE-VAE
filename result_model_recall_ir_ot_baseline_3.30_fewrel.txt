@@ -1,0 +1,285 @@
+Datetime: 2025-04-02 21:32:36
+Run time: 181.54 seconds
+Parameters info:
+	 seed: 7
+	 train_batch_size: 32
+	 evaluate_batch_size: 640
+	 epochs: 5
+	 max_seq_len: 128
+	 lr: 2e-05
+	 k: 2
+	 warm_up: 100.0
+	 unseen: 10
+	 expand_data: False
+	 dataset_path: data
+	 dataset: fewrel
+	 relation_description_processed: relation_description_processed.json
+	 gpu_available: 1
+	 pretrained_model_name_or_path: ../Roberta
+	 add_auto_match: True
+	 checkpoint_dir: checkpoints/ir_ot3_2_fewrel_split_7_unseen_10.pth
+	 data_file: data/fewrel/fewrel_dataset.json
+	 relation_description_file: data/fewrel/relation_description/fewrel_relation_description.json
+	 relation_description_file_processed: data/fewrel/relation_description/relation_description_processed.json
+	 device: cuda:1
+
+Evaluation results:
+[dev][sim] (macro) final precision: 0.9821, recall: 0.9820, f1 score: 0.9821
+[dev][classify] (macro) final precision: 0.9903, recall: 0.9903, f1 score: 0.9903
+[test][sim] (macro) final precision: 0.8940, recall: 0.8853, f1 score: 0.8896
+[test][classify] (macro) final precision: 0.8773, recall: 0.8687, f1 score: 0.8730
+
+Datetime: 2025-04-02 21:39:50
+Run time: 10291.24 seconds
+Total steps: 6565
+Best step: 5661
+Min train loss: 0.02477208524942398
+Parameters info:
+	 seed: 7
+	 train_batch_size: 32
+	 evaluate_batch_size: 640
+	 epochs: 5
+	 max_seq_len: 128
+	 lr: 2e-05
+	 k: 2
+	 warm_up: 100.0
+	 unseen: 15
+	 expand_data: False
+	 dataset_path: data
+	 dataset: fewrel
+	 relation_description_processed: relation_description_processed.json
+	 gpu_available: 1
+	 pretrained_model_name_or_path: ../Roberta
+	 add_auto_match: True
+	 checkpoint_dir: checkpoints/ir_ot3_2_fewrel_split_7_unseen_15.pth
+	 data_file: data/fewrel/fewrel_dataset.json
+	 relation_description_file: data/fewrel/relation_description/fewrel_relation_description.json
+	 relation_description_file_processed: data/fewrel/relation_description/relation_description_processed.json
+	 device: cuda:1
+
+Evaluation results:
+[dev][sim] (macro) final precision: 0.9911, recall: 0.9909, f1 score: 0.9910
+[dev][classify] (macro) final precision: 0.1180, recall: 0.0063, f1 score: 0.0119
+[test][sim] (macro) final precision: 0.9037, recall: 0.8975, f1 score: 0.9006
+[test][classify] (macro) final precision: 0.0632, recall: 0.0585, f1 score: 0.0608
+
+Datetime: 2025-04-03 01:10:12
+Run time: 229.91 seconds
+Parameters info:
+	 seed: 7
+	 train_batch_size: 32
+	 evaluate_batch_size: 640
+	 epochs: 5
+	 max_seq_len: 128
+	 lr: 2e-05
+	 k: 2
+	 warm_up: 100.0
+	 unseen: 5
+	 expand_data: False
+	 dataset_path: data
+	 dataset: wikizsl
+	 relation_description_processed: relation_description_processed.json
+	 gpu_available: 0
+	 pretrained_model_name_or_path: ../Roberta
+	 add_auto_match: True
+	 checkpoint_dir: checkpoints/ir_ot3_2_wikizsl_split_7_unseen_5.pth
+	 data_file: data/wikizsl/wikizsl_dataset.json
+	 relation_description_file: data/wikizsl/relation_description/wikizsl_relation_description.json
+	 relation_description_file_processed: data/wikizsl/relation_description/relation_description_processed.json
+	 device: cuda:0
+
+Evaluation results:
+[dev][sim] (macro) final precision: 0.8930, recall: 0.9025, f1 score: 0.8977
+[dev][classify] (macro) final precision: 0.8930, recall: 0.9025, f1 score: 0.8977
+[test][sim] (macro) final precision: 0.9454, recall: 0.9265, f1 score: 0.9359
+[test][classify] (macro) final precision: 0.9454, recall: 0.9265, f1 score: 0.9359
+
+Datetime: 2025-04-03 01:16:41
+Run time: 375.50 seconds
+Parameters info:
+	 seed: 7
+	 train_batch_size: 32
+	 evaluate_batch_size: 640
+	 epochs: 5
+	 max_seq_len: 128
+	 lr: 2e-05
+	 k: 2
+	 warm_up: 100.0
+	 unseen: 10
+	 expand_data: False
+	 dataset_path: data
+	 dataset: wikizsl
+	 relation_description_processed: relation_description_processed.json
+	 gpu_available: 0
+	 pretrained_model_name_or_path: ../Roberta
+	 add_auto_match: True
+	 checkpoint_dir: checkpoints/ir_ot3_2_wikizsl_split_7_unseen_10.pth
+	 data_file: data/wikizsl/wikizsl_dataset.json
+	 relation_description_file: data/wikizsl/relation_description/wikizsl_relation_description.json
+	 relation_description_file_processed: data/wikizsl/relation_description/relation_description_processed.json
+	 device: cuda:0
+
+Evaluation results:
+[dev][sim] (macro) final precision: 0.7786, recall: 0.7831, f1 score: 0.7808
+[dev][classify] (macro) final precision: 0.7786, recall: 0.7831, f1 score: 0.7808
+[test][sim] (macro) final precision: 0.8717, recall: 0.8651, f1 score: 0.8684
+[test][classify] (macro) final precision: 0.8717, recall: 0.8651, f1 score: 0.8684
+
+Datetime: 2025-04-02 21:49:58
+Run time: 46789.98 seconds
+Total steps: 12040
+Best step: 11824
+Min train loss: 0.02182915061712265
+Parameters info:
+	 seed: 7
+	 train_batch_size: 32
+	 evaluate_batch_size: 640
+	 epochs: 5
+	 max_seq_len: 128
+	 lr: 2e-05
+	 k: 2
+	 warm_up: 100.0
+	 unseen: 15
+	 expand_data: False
+	 dataset_path: data
+	 dataset: wikizsl
+	 relation_description_processed: relation_description_processed.json
+	 gpu_available: 0
+	 pretrained_model_name_or_path: ../Roberta
+	 add_auto_match: True
+	 checkpoint_dir: checkpoints/ir_ot3_2_wikizsl_split_7_unseen_15.pth
+	 data_file: data/wikizsl/wikizsl_dataset.json
+	 relation_description_file: data/wikizsl/relation_description/wikizsl_relation_description.json
+	 relation_description_file_processed: data/wikizsl/relation_description/relation_description_processed.json
+	 device: cuda:0
+
+Evaluation results:
+[dev][sim] (macro) final precision: 0.9839, recall: 0.9754, f1 score: 0.9796
+[dev][classify] (macro) final precision: 0.0223, recall: 0.0210, f1 score: 0.0216
+[test][sim] (macro) final precision: 0.8004, recall: 0.7892, f1 score: 0.7948
+[test][classify] (macro) final precision: 0.1611, recall: 0.1069, f1 score: 0.1285
+
+Datetime: 2025-04-03 11:42:35
+Run time: 113.47 seconds
+Parameters info:
+	 seed: 7
+	 train_batch_size: 32
+	 evaluate_batch_size: 640
+	 epochs: 5
+	 max_seq_len: 128
+	 lr: 2e-05
+	 k: 2
+	 warm_up: 100.0
+	 unseen: 5
+	 expand_data: False
+	 dataset_path: data
+	 dataset: fewrel
+	 relation_description_processed: relation_description_processed.json
+	 gpu_available: 1
+	 pretrained_model_name_or_path: ../Roberta
+	 add_auto_match: True
+	 checkpoint_dir: checkpoints/ir_ot3_2_fewrel_split_7_unseen_5.pth
+	 data_file: data/fewrel/fewrel_dataset.json
+	 relation_description_file: data/fewrel/relation_description/fewrel_relation_description.json
+	 relation_description_file_processed: data/fewrel/relation_description/relation_description_processed.json
+	 device: cuda:1
+
+Evaluation results:
+[dev][sim] (macro) final precision: 0.8822, recall: 0.8537, f1 score: 0.8677
+[dev][classify] (macro) final precision: 0.9233, recall: 0.9226, f1 score: 0.9229
+[test][sim] (macro) final precision: 0.9659, recall: 0.9651, f1 score: 0.9655
+[test][classify] (macro) final precision: 0.9761, recall: 0.9757, f1 score: 0.9759
+
+Datetime: 2025-04-03 13:55:43
+Run time: 2270.92 seconds
+Parameters info:
+	 seed: 7
+	 train_batch_size: 32
+	 evaluate_batch_size: 640
+	 epochs: 1
+	 max_seq_len: 128
+	 lr: 2e-05
+	 k: 2
+	 warm_up: 100.0
+	 unseen: 5
+	 expand_data: False
+	 dataset_path: data
+	 dataset: fewrel
+	 relation_description_processed: relation_description_processed.json
+	 gpu_available: 1
+	 pretrained_model_name_or_path: ../Roberta
+	 add_auto_match: True
+	 checkpoint_dir: checkpoints/ir_ot3_2_fewrel_split_7_unseen_5.pth
+	 data_file: data/fewrel/fewrel_dataset.json
+	 relation_description_file: data/fewrel/relation_description/fewrel_relation_description.json
+	 relation_description_file_processed: data/fewrel/relation_description/relation_description_processed.json
+	 device: cuda:1
+
+Evaluation results:
+[dev][sim] (macro) final precision: 0.9049, recall: 0.8860, f1 score: 0.8954
+[dev][classify] (macro) final precision: 0.0577, recall: 0.1071, f1 score: 0.0750
+[test][sim] (macro) final precision: 0.9617, recall: 0.9577, f1 score: 0.9597
+[test][classify] (macro) final precision: 0.0344, recall: 0.0369, f1 score: 0.0356
+
+Datetime: 2025-04-03 14:49:23
+Run time: 4017.11 seconds
+Parameters info:
+	 seed: 7
+	 train_batch_size: 32
+	 evaluate_batch_size: 640
+	 epochs: 1
+	 max_seq_len: 128
+	 lr: 2e-05
+	 k: 2
+	 warm_up: 100.0
+	 unseen: 15
+	 expand_data: False
+	 dataset_path: data
+	 dataset: fewrel
+	 relation_description_processed: relation_description_processed.json
+	 gpu_available: 1
+	 pretrained_model_name_or_path: ../Roberta
+	 add_auto_match: True
+	 checkpoint_dir: checkpoints/ir_ot3_2_fewrel_split_7_unseen_15.pth
+	 data_file: data/fewrel/fewrel_dataset.json
+	 relation_description_file: data/fewrel/relation_description/fewrel_relation_description.json
+	 relation_description_file_processed: data/fewrel/relation_description/relation_description_processed.json
+	 device: cuda:1
+
+Evaluation results:
+[dev][sim] (macro) final precision: 0.9932, recall: 0.9931, f1 score: 0.9932
+[dev][classify] (macro) final precision: 0.1241, recall: 0.0043, f1 score: 0.0083
+[test][sim] (macro) final precision: 0.8660, recall: 0.8612, f1 score: 0.8636
+[test][classify] (macro) final precision: 0.0947, recall: 0.0800, f1 score: 0.0867
+
+Datetime: 2025-04-03 14:52:20
+Run time: 4122.91 seconds
+Parameters info:
+	 seed: 7
+	 train_batch_size: 32
+	 evaluate_batch_size: 640
+	 epochs: 1
+	 max_seq_len: 128
+	 lr: 2e-05
+	 k: 2
+	 warm_up: 100.0
+	 unseen: 10
+	 expand_data: False
+	 dataset_path: data
+	 dataset: fewrel
+	 relation_description_processed: relation_description_processed.json
+	 gpu_available: 1
+	 pretrained_model_name_or_path: ../Roberta
+	 add_auto_match: True
+	 checkpoint_dir: checkpoints/ir_ot3_2_fewrel_split_7_unseen_10.pth
+	 data_file: data/fewrel/fewrel_dataset.json
+	 relation_description_file: data/fewrel/relation_description/fewrel_relation_description.json
+	 relation_description_file_processed: data/fewrel/relation_description/relation_description_processed.json
+	 device: cuda:1
+
+Evaluation results:
+[dev][sim] (macro) final precision: 0.9808, recall: 0.9806, f1 score: 0.9807
+[dev][classify] (macro) final precision: 0.0269, recall: 0.0137, f1 score: 0.0182
+[test][sim] (macro) final precision: 0.8532, recall: 0.8326, f1 score: 0.8427
+[test][classify] (macro) final precision: 0.1664, recall: 0.0989, f1 score: 0.1240
+
